@@ -4,7 +4,7 @@ const app = Vue.createApp({
             yourName:'Haiza T. Casapao',
             yourAge: 21 + ' yrs old',
             yourAge5: 21 + 5 + ' after five yrs',
-            url: "http://https://i.pinimg.com/originals/62/08/ec/6208ecbf1d02d01c151c4e3bfe259117.png",
+            url: "https://i.pinimg.com/originals/62/08/ec/6208ecbf1d02d01c151c4e3bfe259117.png",
             name: "Haiza T. Casapao"
         };
     },
