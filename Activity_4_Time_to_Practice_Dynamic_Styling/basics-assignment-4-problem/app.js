@@ -4,16 +4,17 @@ const app = Vue.createApp({
             user: '',
             user1:false,
             user2:false,
-            enable: true,
+            enable:true,
             color: '',
-            keycolor: '',
+            selectColor: '',
 
         };
     },
 
     methods: {
-        input(event) {
+        Input(event) {
             this.user = event.target.value;
+            
             if(this.user === 'user1') {
                 this.user1 = 'user1';
             }
@@ -28,15 +29,16 @@ const app = Vue.createApp({
         toggle() {
             this.enable = !this.enable;
         },
+        
         SelectColor(event) {
             this.color = event.target.value;
             if(this.color === 'red') {
                 this.selectColor = this.color;
             }
             else if(this.color === 'yellow') {
-                this.selectColor = this.color;
+                this.selectColor = this.color
             }
-             if(this.color === 'blue') {
+            else if(this.color === 'blue') {
                 this.selectColor = this.color;
             }
             else{this.selectColor = '';
@@ -45,5 +47,4 @@ const app = Vue.createApp({
     }
     
 });
-
 app.mount('#styling');
