@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  background-color: aquamarine;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
   margin: 3rem;
   border-radius: 10px;
   padding: 1rem;
-  background-color: #1b995e;
+  background-color: black;
   color: white;
   text-align: center;
 }
@@ -26,21 +27,22 @@ header {
   border-radius: 10px;
   padding: 1rem;
   text-align: center;
+  background-color: black;
 }
 
 #assignment h2 {
   font-size: 2rem;
   border-bottom: 4px solid #ccc;
-  color: #1b995e;
+  color: white;
   margin: 0 0 1rem 0;
 }
 
 #assignment p {
   font-size: 1.25rem;
   font-weight: bold;
-  background-color: #8ddba4;
+  background-color: #1f78fd;
   padding: 0.5rem;
-  color: #1f1f1f;
+  color: white;
   border-radius: 25px;
 }
 
@@ -58,16 +60,17 @@ header {
 #assignment button {
   font: inherit;
   cursor: pointer;
-  border: 1px solid #ff0077;
-  background-color: #ff0077;
+  border: 1px solid white;
+  background-color: #1f78fd;
   color: white;
+  border-radius: 10px;
   padding: 0.05rem 1rem;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
 }
 
 #assignment button:hover,
 #assignment button:active {
-  background-color: #ec3169;
-  border-color: #ec3169;
+  background-color: #1f78fd;
+  border-color: blue;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
 }
