@@ -21,7 +21,7 @@ const app = Vue.createApp ({
 
     methods: {
         addA() {
-            this.counter + 5;
+            this.counter = this.counter + 5;
         },
         addB() {
             this.counter = this.counter + 1;
@@ -44,4 +44,4 @@ const app = Vue.createApp ({
     
 });
 
-app.mount('#reactivity');1
+app.mount('#reactivity');
