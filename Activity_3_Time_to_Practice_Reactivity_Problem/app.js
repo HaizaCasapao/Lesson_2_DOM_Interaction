@@ -18,5 +18,30 @@ const app = Vue.createApp ({
             }
         }
     },
+
+    methods: {
+        addA() {
+            this.counter + 5;
+        },
+        addB() {
+            this.counter = this.counter + 1;
+        },
+        result() {
+            if (this.counter == 0) {
+                return this.counter;
+            }
+            else if (this.counter > 0 && this.counter < 37) {
+                return 'Not there yet';
+            }
+            else if (this.counter > 37) {
+                return 'Too much';
+            }
+            return this.counter;
+
+        },
+
+    },
     
 });
+
+app.mount('#reactivity');1
